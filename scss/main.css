@@ -79,6 +79,11 @@ table {
   justify-content: space-between;
   align-items: center;
 }
+@media only screen and (max-width: 600px) {
+  .head-container .bg-gradient header {
+    padding-top: 25px;
+  }
+}
 .head-container .bg-gradient header .logo {
   font-family: "Gilroy";
   font-weight: bold;

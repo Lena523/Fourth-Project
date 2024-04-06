@@ -84,6 +84,7 @@ table {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @include onlylarge(600px){padding-top: 25px;}
 
             .logo{
                 font-family: 'Gilroy';
